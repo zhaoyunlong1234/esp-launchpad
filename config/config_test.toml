@@ -1,0 +1,40 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://dl.espressif.com/AE/esp-iot-solution/"
+supported_apps = ["usb_dual_uvc_device", "usb_webcam", "usb_camera_lcd_display", "usb_camera_mic_spk"]
+
+[usb_dual_uvc_device]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/device/usb_dual_uvc_device/README.md"
+image.esp32p4-defaults = "usb_dual_uvc_device-esp32p4-defaults-0.1.0-v5.3.bin"
+image.esp32s3-esp32s3_usb_otg = "usb_dual_uvc_device-esp32s3-esp32s3_usb_otg-0.1.0-v5.3.bin"
+chipsets = ["esp32p4-defaults", "esp32s3-esp32s3_usb_otg"]
+
+[usb_webcam]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/device/usb_webcam/README.md"
+image.esp32s3-esp32s3_eye = "usb_webcam-esp32s3-esp32s3_eye-v5.3.bin"
+chipsets = ["esp32s3-esp32s3_eye"]
+
+[usb_camera_lcd_display]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/host/usb_camera_lcd_display/README.md"
+image.esp32s3-esp32s3_lcd_ev_board = "usb_camera_lcd_display-esp32s3-esp32s3_lcd_ev_board-v5.1.bin"
+chipsets = ["esp32s3-esp32s3_lcd_ev_board"]
+
+[usb_camera_mic_spk]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/host/usb_camera_mic_spk/README.md"
+image.esp32s3-defaults = "usb_camera_mic_spk-esp32s3-defaults-v5.1.bin"
+chipsets = ["esp32s3-defaults"]
+
+[usb_cdc_4g_module]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/host/usb_cdc_4g_module/README.md"
+image.esp32s3-defaults = "usb_cdc_4g_module-esp32s3-defaults-v5.1.bin"
+chipsets = ["esp32s3-defaults"]
+
