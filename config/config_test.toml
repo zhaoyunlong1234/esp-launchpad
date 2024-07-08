@@ -1,6 +1,6 @@
 esp_toml_version = 1.0
 firmware_images_url = "https://dl.espressif.com/AE/esp-iot-solution/"
-supported_apps = ["usb_dual_uvc_device", "usb_webcam", "usb_camera_lcd_display", "usb_camera_mic_spk"]
+supported_apps = ["usb_dual_uvc_device", "usb_webcam", "usb_camera_lcd_display", "usb_camera_mic_spk", "usb_cdc_4g_module", "sb_cdc_basic"]
 
 [usb_dual_uvc_device]
 android_app_url = ""
@@ -38,3 +38,9 @@ readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/mast
 image.esp32s3-defaults = "usb_cdc_4g_module-esp32s3-defaults-v5.1.bin"
 chipsets = ["esp32s3-defaults"]
 
+[sb_cdc_basic]
+android_app_url = ""
+ios_app_url = ""
+readme.text = "https://raw.githubusercontent.com/espressif/esp-iot-solution/master/examples/usb/host/sb_cdc_basic/README.md"
+image.esp32s3-defaults = "sb_cdc_basic-esp32s3-defaults-v5.1.bin"
+chipsets = ["esp32s3-defaults"]
